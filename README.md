@@ -35,6 +35,12 @@ Convolutional Neural Network (CNN) is used to map the raw pixels from a front-fa
 
 ![image](https://user-images.githubusercontent.com/59175150/186893406-21c4ae90-143c-4763-b07e-90f49e174f64.png)
 
+* **Measure of success used by Nvidia (performance):** is the fraction (%) of time during which the car performs autonomous steering.
+
+* **Actual test result of this model:** For a typical drive in Monmouth County NJ from our office in Holmdel to Atlantic Highlands, we are autonomous approximately 98% of the time. We also drove 10 miles on the Garden State Parkway (a multi-lane divided highway with on and off ramps) with zero intercepts.
+
+* **On road test:** https://www.youtube.com/watch?v=NJU9ULQUwng&t=460s
+
 Convolutional Neural Network (CNN) is used to map the raw pixels from a front-facing camera to the steering commands for a self-driving car. This powerful end-to-end approach means that with minimum training data from humans, the system learns to steer, with or without lane markings, on both local roads and highways.
 
 ![image](https://user-images.githubusercontent.com/59175150/186893443-5e8927e2-a0ff-4bb4-aeea-b77dab57ef74.png)
