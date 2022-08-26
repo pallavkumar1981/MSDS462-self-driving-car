@@ -24,6 +24,7 @@ A typical self-driving car system
 * Varying conditions - traffic, weather, location (different countries have different traffic rules)
 
 This project is to develop a Minimum Viable Product (MVP) for a self-driving car is based on a research paper published in 2014 by Nvidia. They proposed the whole self-driving-car as a Regression Problem. They trained a model which takes picture of the car's front view and returns the angle of steering should be in that particular frame. A whole new 8 layer of Neural-network architecture was created which has Four Convolution Layers and Four dense layers.
+
 ![image](https://user-images.githubusercontent.com/59175150/186893019-5414794c-ba45-424d-88af-c3397386d64f.png)
 
 ## 4. Dataset
@@ -31,9 +32,11 @@ Sully Chen auto-pilot dataset: A video collected over Approximately 45,568 image
 
 ## 5. Model
 Convolutional Neural Network (CNN) is used to map the raw pixels from a front-facing camera to the steering commands for a self-driving car. This powerful end-to-end approach means that with minimum training data from humans, the system learns to steer, with or without lane markings, on both local roads and highways. The model architecture is as below.
+
 ![image](https://user-images.githubusercontent.com/59175150/186893406-21c4ae90-143c-4763-b07e-90f49e174f64.png)
 
 Convolutional Neural Network (CNN) is used to map the raw pixels from a front-facing camera to the steering commands for a self-driving car. This powerful end-to-end approach means that with minimum training data from humans, the system learns to steer, with or without lane markings, on both local roads and highways.
+
 ![image](https://user-images.githubusercontent.com/59175150/186893443-5e8927e2-a0ff-4bb4-aeea-b77dab57ef74.png)
 
 The Loss plot - (End-to-end Learning model, Nvidia):
